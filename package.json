@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ag-ui/agno": "^0.0.3",
+    "@copilotkit/runtime": "^1.51.3"
+  }
+}
