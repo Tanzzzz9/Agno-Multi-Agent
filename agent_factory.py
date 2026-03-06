@@ -21,7 +21,7 @@ from metrics import record_tool_call
 def track_tool(tool, name):
     def wrapper(*args, **kwargs):
         record_tool_call(name)
-        print(f"📊 Tool used: {name}")
+        print(f" Tool used: {name}")
         return tool(*args, **kwargs)
     return wrapper
 def get_metrics():
