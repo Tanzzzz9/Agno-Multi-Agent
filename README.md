@@ -24,23 +24,6 @@ Knowledge Base
 Metrics
 Finance analysis
 
-## Architecture 
-
-User
-   │
-   ▼
-FastAPI Backend
-   │
-   ▼
-Agno Team
-├── Finance Agent
-├── Technical Agent
-├── News/Sentiment Agent
-└── Coordinator
-   │
-   ▼
-Memory + Knowledge + Database
-
 Prerequisites
 
 Python version:
