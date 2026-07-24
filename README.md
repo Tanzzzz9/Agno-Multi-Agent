@@ -1,11 +1,15 @@
-#Project Title: 
+## Project Title: 
 Agno Multi Agent System
 
-##Overview
-This project is a Multi-Agent AI System built using the Agno Framework that brings together specialized Finance, Legal, and Medical AI agents into a single orchestration workflow. Each agent is designed to handle domain-specific queries while collaborating to provide accurate and context-aware responses.
-The system leverages modern AI technologies, including Agno Framework, Python, Groq (Llama models), PostgreSQL, pgvector, and Vector Databases to enable intelligent reasoning, semantic search, and efficient knowledge retrieval.
+## Overview
 
-##Tech Stack
+
+-This project is a Multi-Agent AI System built using the Agno Framework that brings together specialized Finance, Legal, and Medical AI agents into a single orchestration workflow. Each agent is designed to handle domain-specific queries while collaborating to provide accurate and context-aware responses.
+
+-The system leverages modern AI technologies, including Agno Framework, Python, Groq (Llama models), PostgreSQL, pgvector, and Vector Databases to enable intelligent reasoning, semantic search, and efficient knowledge retrieval.
+
+## Tech Stack
+
 Agno Framework – Multi-agent orchestration
 Python – Backend development
 Groq (Llama Models) – Large Language Model inference
@@ -20,7 +24,8 @@ Knowledge Base
 Metrics
 Finance analysis
 
-##Architecture 
+## Architecture 
+
 User
    │
    ▼
@@ -43,21 +48,21 @@ PostgreSQL
 pgvector
 Groq API Key
 
-Installation
+## Installation
 
-Step 1
+# Step 1:
 
 git clone https://github.com/Tanzzzz9/Agno-Multi-Agent.git
 
-Step 2
+# Step 2:
 
 cd Agno-Multi-Agent
 
-Step 3
+# Step 3:
 
 python -m venv .venv
 
-Step 4
+# Step 4:
 
 source .venv/bin/activate
 
@@ -65,14 +70,14 @@ Windows
 
 .venv\Scripts\activate
 
-Step 5
+# Step 5:
 
 pip install -r requirements.txt
 
 Environment Variables
 Create a .env file.
 
-Example:
+# Example:
 
 GROQ_API_KEY=
 OPENAI_API_KEY=
@@ -103,7 +108,7 @@ Agents search knowledge/memory.
 Results are combined.
 Final answer is returned.
 
-Project Structure
+## Project Structure
 
 Agno-Multi-Agent/
 ├── agents/
@@ -117,7 +122,7 @@ Agno-Multi-Agent/
 ├── .env.example
 └── README.md
 
-#Technologies
+# Technologies
 Python
 FastAPI
 Agno
